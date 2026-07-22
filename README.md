@@ -1,159 +1,63 @@
-# student_skill_exchange
-A student can say:
+# MailSentinel AI
 
-"I can teach React and I want to learn UI/UX."
+### *Never Miss What Matters.*
 
-Another student can say:
+## Overview
 
-"I know UI/UX and want to learn Python."
+Every opportunity begins as information.
 
-The platform matches them and helps them exchange knowledge.
+A job interview, a scholarship announcement, a registration deadline, or an important reminder often arrives quietly in an inbox already crowded with newsletters, promotions, and routine correspondence. The challenge is no longer receiving information—it is recognizing what deserves attention before the moment passes.
 
-Features
-👤 User Profile
-Name
-College
-Bio
-Skills I Can Teach
-Skills I Want To Learn
-Profile Picture
-Portfolio Links
-🔍 Smart Skill Matching
+**MailSentinel AI** is an AI-powered email intelligence platform that transforms emails into actionable insights. Instead of requiring users to constantly monitor their inboxes, the system understands the context of incoming emails, identifies what matters, extracts deadlines and required actions, and proactively reminds users until those actions are completed.
 
-Example:
+Our philosophy is simple:
 
-User	Can Teach	Wants to Learn
-A	React	UI/UX
-B	UI/UX	React
+> *Technology should not merely deliver information; it should ensure that meaningful opportunities are never overlooked.*
 
-➡️ Match Found
+---
 
-💬 Chat System
-One-to-one messaging
-Exchange requests
-Accept/Reject requests
-⭐ Reviews
-Rate teaching quality
-Feedback system
-📅 Session Scheduler
-Book learning sessions
-Set date & time
-🏆 Gamification
-Skill Points
-Badges
-Leaderboards
-Advanced Features
-🤖 AI Skill Roadmap
+## Key Highlights
 
-User enters:
+* Intelligent classification of incoming emails based on priority and relevance.
+* Automatic extraction of deadlines, dates, and actionable tasks.
+* AI-generated reminders delivered before critical deadlines.
+* Continuous follow-up notifications until the required action is completed.
+* Personalized prioritization based on user interactions and preferences.
+* Secure integration with Gmail and Outlook using OAuth authentication.
+* Calendar synchronization for important events and deadlines.
+* Multi-platform notification support across web, desktop, and mobile.
 
-I want to become a Full Stack Developer
+---
 
-AI suggests:
+## Problem Statement
 
-HTML
-CSS
-JavaScript
-React
-Node.js
-MongoDB
-🎯 Skill Recommendation Engine
+Modern email platforms are designed to organize messages, not to understand their importance. As inboxes continue to grow, essential emails are frequently overlooked, resulting in missed interviews, forgotten registrations, delayed payments, and lost professional or academic opportunities.
 
-Recommends people based on:
+---
 
-Interests
-Skills
-College
-Experience
-📹 Meeting Integration
-Google Meet links
-Zoom links
-Tech Stack
-Frontend
-React
-Tailwind CSS
-Framer Motion
-React Router
-Backend
-Node.js
-Express.js
-Database
-MongoDB Atlas
-Authentication
-JWT
-Real-Time Features
-Socket.IO
-Deployment
-Frontend: Vercel
-Backend: Render
-Database Design
-Users
-{
-  name,
-  email,
-  password,
-  college,
-  bio,
-  skillsCanTeach: [],
-  skillsWantToLearn: [],
-  rating,
-  points,
-  profilePic
-}
-Skill Exchanges
-{
-  sender,
-  receiver,
-  teachSkill,
-  learnSkill,
-  status
-}
-Reviews
-{
-  reviewer,
-  reviewedUser,
-  rating,
-  comment
-}
-Messages
-{
-  sender,
-  receiver,
-  message,
-  timestamp
-}
-Advanced UI Sections
-Landing Page
-Animated Hero Section
-Floating Skill Cards
-Statistics Counter
-Testimonials
-Dashboard
-Skill Match Suggestions
-Exchange Requests
-Upcoming Sessions
-Marketplace
-Search Skills
-Filter by College
-Filter by Category
-Profile
-Modern card layout
-Progress bars
-Achievement badges
-Why this project stands out
+## Our Approach
 
-Most students build:
+MailSentinel AI combines Artificial Intelligence and Natural Language Processing to bridge the gap between communication and action. By understanding the intent behind an email rather than simply displaying it, the platform converts unstructured messages into prioritized tasks and timely reminders.
 
-To-Do Apps
-Weather Apps
-Expense Trackers
+---
 
-A Student Skill Exchange demonstrates:
+## Vision
 
-Authentication
-Matching Logic
-Real-Time Chat
-Scheduling
-Database Relationships
-Modern UI/UX
-Full-Stack Architecture
+We envision a future where inboxes are no longer passive repositories of information but intelligent assistants that understand urgency, anticipate action, and empower users to focus on what truly matters.
+
+---
+
+## Core Technologies
+
+* **Frontend:** React.js, Tailwind CSS
+* **Backend:** FastAPI / Node.js
+* **Database:** MongoDB
+* **Artificial Intelligence:** Large Language Models (LLMs), Natural Language Processing (NLP)
+* **Email Services:** Gmail API, Microsoft Graph API
+* **Notifications:** Firebase Cloud Messaging (FCM)
+
+---
+
+> **"The value of information is not measured by its arrival, but by the action it inspires."**
+
+### **MailSentinel AI — Never Miss What Matters.**
